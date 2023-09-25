@@ -9,12 +9,9 @@ img {
     max-width: 100%;
 }
 /* HEADER */
-header{
-    height: 80px;
-}
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;}
 
 
@@ -26,7 +23,7 @@ header{
     color: black;
 
 }
-a {
+li a {
     color: inherit;
     text-decoration: none;
 }
@@ -44,12 +41,14 @@ ul li {
     background-color: #0660ff;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 .btn-small{
     padding: 0.5em 0.5em;
     line-height: 11px;
     margin-left: 18px;
     margin-right: 18px;
+
 }
 .header-actions{
     display: flex;
@@ -67,6 +66,7 @@ ul li {
 }
 .flex-wrapper{
     display: flex;
+    justify-content: center;
     /* DEBUG */
     height: 400px;
     width: 700px;
@@ -81,3 +81,102 @@ ul li {
     /* DEBUG */
     background-color: blueviolet;
 }
+/* MAIN */
+
+    /* THREE COL SECTION */
+    .three-cols {
+        border: 1px solid black;
+        /* debug */
+        width: 194px;
+        height: 400px;
+
+    }
+    .enterprise-col {
+        border: 1px solid black;
+        margin-top: 20px;
+        /* debug */
+        padding: 80px;
+    }
+    /* TWO COL SECTION */
+    .two-col-section {
+        margin-top: 140px;
+    }
+    /* SIX cols SECTION */
+    .six-cols-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* debug */
+        min-height: 500px;
+        margin-bottom: 50px;
+
+    }
+    .six-cols{
+        min-height: 190px;
+        background-color: aquamarine;
+        border: 1px solid black;
+        width: calc(95% / 3);
+        margin-bottom: 10px;
+
+    }
+    .six-cols-section{
+        margin-top: 70px;
+    }
+    /* /SIX COLS SECTION */
+    /* TEAMS SECTION */
+    .teams-section{
+        /* debug */
+        /* background-color: aqua; */
+        margin-top: 60px;
+    }
+    .teams-text {
+        padding: 60px;
+        margin: 0 auto;
+        line-height: 50px;
+    }
+    .teams-row {
+        display: flex;
+     
+    }
+   .teams-col {
+    /* debug */
+    background-color: cornflowerblue;
+   }
+   .text-teams-col{
+    /* debug */
+    background-color: pink;
+    min-height: 400px;
+   }
+
+   /* CTA SECITON */
+   .cta-section{
+    background-color: #b4d0e8;
+    min-height: 300px;
+   }
+   .cta-row {
+    display: flex;
+    justify-content: center;
+   }
+   .cta-col {
+    min-height: 250px;
+    padding: 100px;
+   }
+   .text-cta-col{
+    min-height: 250px;
+    padding: 100px;
+    font-size: 25px;
+
+   }
+
+    /* QUESTIONS SECTION */
+    .questions-section {
+        padding: 80px;
+    }
+    .questions-title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    
+    .questions-ul li {
+        list-style-type: none;
+    }
