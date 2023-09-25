@@ -16,11 +16,8 @@ header{
 .container{
     width: 80%;
     margin: 0 auto;}
-    
-.hero{
-    background-color: #b4d0e8;
-    
-}
+
+
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -62,4 +59,25 @@ ul li {
     text-align: left;
     vertical-align: middle;
     margin-right: 10px;
+}
+/* HERO */
+.hero{
+    background-color: #b4d0e8;
+
+}
+.flex-wrapper{
+    display: flex;
+    /* DEBUG */
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+}
+.col-small{
+    /* DEBUG */
+    width: 500px;
+    background-color: #0660ff;
+}
+.col-big {
+    /* DEBUG */
+    background-color: blueviolet;
 }
