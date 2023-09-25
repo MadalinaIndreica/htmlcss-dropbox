@@ -8,3 +8,58 @@
 img {
     max-width: 100%;
 }
+/* HEADER */
+header{
+    height: 80px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;}
+    
+.hero{
+    background-color: #b4d0e8;
+    
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    color: black;
+
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.header-actions ul {
+    list-style-type: none;
+    display: flex;
+    line-height: 26px;
+}
+ul li {
+    margin-left: 20px;
+
+}
+.btn{
+    display: inline-block;
+    background-color: #0660ff;
+    color: white;
+    text-align: center;
+}
+.btn-small{
+    padding: 0.5em 0.5em;
+    line-height: 11px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.header-actions{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 10px;
+}
