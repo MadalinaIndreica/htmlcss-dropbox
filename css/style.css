@@ -35,6 +35,12 @@ li a {
     display: flex;
     line-height: 26px;
 }
+.header-act:hover{
+    border-bottom: 2px solid;
+    padding-bottom: 30px;
+   
+
+}
 ul li {
     margin-left: 20px;
 
@@ -45,6 +51,9 @@ ul li {
     color: white;
     text-align: center;
     text-decoration: none;
+}
+.btn:hover{
+    filter: brightness(1.2);
 }
 .btn-small{
     padding: 0.5em 0.5em;
@@ -93,11 +102,15 @@ ul li {
     padding: 0.5em 1em;
 }
 .delete-it{
-    margin-top: 30px;
+    margin-top: 16px;
     font-weight: 200;
 }
+.position-rel-top{
+    position: relative;
+    top: 57px;
+}
 .jumbo-image{
-    width: 100%;
+    min-width: 119%;
 }
 .decoration::after{
     content: "";
@@ -113,14 +126,14 @@ ul li {
 }
 .arrow {
     font-size: 39px;
-    margin-top: 49px;
+    margin-top: 28px;
 }
 /* MAIN */
 
     /* THREE COL SECTION */
     .smaller-title{
         padding: 30px;
-        margin-top: 60px;
+        margin-top: 103px;
         font-size: 32px;
 
     }
@@ -155,6 +168,9 @@ ul li {
         text-align: center;
         font-size: 13px;
         padding: 0.5rem;
+    }
+    .blue-check {
+        color: #0660ff;
     }
     /* ENTERPRICE COL */
     .enterprise-icon-title{
@@ -340,7 +356,7 @@ ul li {
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 0.5em;
     width: 209%;
 
